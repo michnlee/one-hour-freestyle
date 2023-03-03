@@ -51,12 +51,14 @@ li {
 
 .logo {
   margin-right: 20px;
+  /* padding could have been added to give the h1 more room. */
 }
 
 .hero-container {
   background-color: #dbbcb4;
   width: 100%;
   margin-top: 20px;
+  /*margin-top makes the navbar spacing look too big underneath*/
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -101,6 +103,8 @@ li {
 .serviceInfo h2 {
   margin-bottom: 30px;
 }
+
+/* spacing for the service paragraph between the image and the information needs to be applied. */
 
 .serviceImage {
   width: 400px;
