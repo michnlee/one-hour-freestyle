@@ -11,6 +11,7 @@
 body {
   max-width: 1200px;
   margin: 0 auto;
+  /* this may have to change back to the display flex-property to facilitate being able to use the entire page properly by use of a bigger max-width */
   background-color: #ffbe88;
   /* display: flex;
   flex-direction: column;
@@ -24,7 +25,12 @@ h1 {
 h3 {
   margin-bottom: 14px;
   color: #47cacc;
+  /* needs a more contrasting color. could use the pink to tie in with the hover navbar links */
 }
+
+/* p{
+    a different color should be used for p elements for a bit of a softer look against the summer theme.
+ } */
 
 a {
   color: inherit;
@@ -126,6 +132,7 @@ li {
   background-color: #63bcc9;
 }
 
+/* floating of images needs improvement */
 .why-img,
 .ingredients-img {
   float: right;
