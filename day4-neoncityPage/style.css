@@ -46,6 +46,7 @@ li {
   padding: 25px;
   background-color: #0e0e0e;
   box-shadow: inset -2px 0 5px #2d2d2d;
+  /* border-radius could be added on the right hand side to give a tab effect */
 }
 
 .nav-div {
@@ -85,6 +86,7 @@ li {
   margin: 20px 0;
   padding: 5px 10px;
   border-bottom: 2px solid transparent;
+  /* transition to be added */
 }
 
 .navlinks li a {
@@ -92,21 +94,25 @@ li {
 }
 
 .navlinks li:hover {
+  /* a fade transition for the hover border to appear to be added */
   /* background-color: #2d2d2d; */
   border-bottom: 2px solid #0017ff;
 }
 
 .contact {
   display: flex;
+  /* padding needs to be added */
 }
 
 .contact a {
   font-size: 1.2rem;
   margin-right: 50px;
   border-bottom: 2px solid transparent;
+  /* padding and transition to be added */
 }
 
 .contact a:hover {
+  /* a fade transition for the hover border to appear to be added */
   border-bottom: 2px solid #0017ff;
 }
 
@@ -118,6 +124,7 @@ li {
 }
 
 section {
+  /* padding top needs to decrease for the first section. */
   margin: 50px 0px;
 }
 
