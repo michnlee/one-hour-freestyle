@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@200;300;400;500;600&family=Playfair+Display:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  line-height: 20px;
+  transition: 0.15s;
+}
+
+body {
+  max-width: 1600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f2cdba;
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+}
+
+h5 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  list-style-type: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 25px;
+}
+
+.mainNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.mainNav,
+.checkout {
+  padding: 10px 20px;
+}
+
+.navlinks,
+.logo {
+  margin: 0px 30px;
+}
+
+.navlinks li {
+  margin: 0px 15px;
+}
+
+.navlinks li a {
+  padding: 10px 20px;
+}
+
+.logo {
+  color: #eb7e7f;
+  font-size: 4rem;
+}
+
+.checkout {
+  justify-self: end;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+}
+
+.hero-container {
+  background-color: #f47e3b;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  padding: 25px;
+}
+
+.heroImage {
+  height: 200px;
+  width: 450px;
+  border-radius: 0px 50px 50px 0px;
+  background-color: #ffffff;
+}
+
+.heroInfo {
+  width: 50%;
+  margin: auto;
+}
+
+.heroTitle {
+  margin-bottom: 30px;
+}
+
+.shopping-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 100px;
+  row-gap: 25px;
+}
+
+.item-img {
+  height: 200px;
+  width: 200px;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.itemName {
+  margin-bottom: 10px;
+}
+
+.itemDescription {
+  margin-bottom: 5px;
+}
+
+.itemPrice {
+  font-weight: 500;
+}
