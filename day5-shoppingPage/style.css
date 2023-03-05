@@ -35,6 +35,7 @@ h5 {
 a {
   color: inherit;
   text-decoration: none;
+  /* style links for hover */
 }
 
 ul {
@@ -85,6 +86,7 @@ li {
 
 .checkout {
   justify-self: end;
+  /* resizing of icon was not reacting wehn attempted */
 }
 
 section {
@@ -101,6 +103,7 @@ section {
   align-content: center;
   padding: 25px;
 }
+/* adjust the spacing between the navbar and hero container so the navbar items looks more centered */
 
 .heroImage {
   height: 200px;
@@ -108,6 +111,8 @@ section {
   border-radius: 0px 50px 50px 0px;
   background-color: #ffffff;
 }
+
+/* hero image to be added */
 
 .heroInfo {
   width: 50%;
@@ -125,6 +130,11 @@ section {
   column-gap: 100px;
   row-gap: 25px;
 }
+/* more distance between the shopping container and the hero container */
+
+/* item-container needs a border or background-color and padding to give each product it's own space*/
+
+/* item images and names to become links */
 
 .item-img {
   height: 200px;
@@ -135,12 +145,15 @@ section {
 
 .itemName {
   margin-bottom: 10px;
+  /* add a some padding */
 }
 
 .itemDescription {
   margin-bottom: 5px;
+  /* add a some padding */
 }
 
 .itemPrice {
   font-weight: 500;
+  /* add a some padding */
 }
