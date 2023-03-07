@@ -134,6 +134,7 @@ main {
 }
 
 .reservation-container {
+  /* Add background image */
   padding: 50px 20px;
   margin: 75px 0px 50px;
   display: flex;
@@ -166,3 +167,5 @@ main {
   background-color: #6a5c55;
   color: #cec4b4;
 }
+
+/* Needs a footer */
