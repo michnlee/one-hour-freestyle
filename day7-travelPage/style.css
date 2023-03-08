@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 325px;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+p {
+  font-weight: 300;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 25px;
+  width: 300px;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.navlinks a {
+  font-size: 1.2rem;
+  margin: 5px 0;
+  padding: 15px 0px;
+}
+
+.navlinks a li {
+  font-size: 1.2rem;
+}
+
+.logo {
+  color: #fcb677;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact a {
+  font-size: 1.2rem;
+  padding: 15px 0px;
+}
+
+.contact a li {
+  font-size: 0.9rem;
+}
+
+.hero-container {
+  background-color: #ef8c86;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+
+.hero-title {
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 25px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.service {
+  background-color: #fcb677;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+  margin: 100px 0px;
+  padding: 25px;
+  width: 80%;
+
+  position: relative;
+}
+
+.service-name {
+  margin-bottom: 25px;
+}
+
+.service-image {
+  background-color: #685268;
+  height: 250px;
+  width: 225px;
+  /* margin-right: 20px; */
+  border-radius: 35% 35% 0 0;
+
+  position: absolute;
+  left: -150px;
+  bottom: -25px;
+  z-index: -1;
+}
+
+.reservation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 25px;
+}
