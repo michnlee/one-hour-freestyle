@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Gugi&family=Lato:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+body {
+  max-width: 1600px;
+  height: 1vh;
+  margin: 40px auto;
+  background: linear-gradient(100deg, #b5ffff, #fca5f1);
+}
+
+h1 {
+  font-family: "Gugi";
+  font-size: 2rem;
+}
+
+h4 {
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 2px 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard {
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10rem);
+  height: 600px;
+  width: 900px;
+  border-radius: 25px;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 225px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 20px;
+  background-color: rgba(250, 250, 250, 0.5);
+  border-radius: 25px;
+  box-shadow: 1px 0 5px rgba(140, 140, 140, 0.2);
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.navLinks {
+  margin-bottom: 100px;
+}
+
+.navLinks li,
+.activityLinks li:hover {
+  border-radius: 5px;
+  transition: background-color 0.15s, backdrop-filter 0.15s;
+}
+
+.navLinks li:hover,
+.activityLinks li:hover {
+  background-color: #f8a2ed7d;
+  backdrop-filter: blur(10rem);
+}
+
+.upgrade-container {
+  padding: 20px 0px;
+  text-align: center;
+  border-radius: 5px;
+  transition: background-color 0.15s, backdrop-filter 0.15s;
+}
+
+.upgrade-container:hover {
+  background-color: #f8a2ed7d;
+  backdrop-filter: blur(10rem);
+}
+
+.hero-container {
+  padding: 25px 20px 20px 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.searchBar {
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 200px;
+}
+.searchBar input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 10px;
+  width: 200px;
+}
+
+.heroTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px;
+  margin-top: 15px;
+}
