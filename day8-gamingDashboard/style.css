@@ -50,6 +50,7 @@ li {
 
 .dashboard {
   background-color: rgba(255, 255, 255, 0.3);
+  /* lighten background-color */
   backdrop-filter: blur(10rem);
   height: 600px;
   width: 900px;
@@ -75,6 +76,7 @@ li {
 
   padding: 20px;
   background-color: rgba(250, 250, 250, 0.5);
+  /* lighten background-color */
   border-radius: 25px;
   box-shadow: 1px 0 5px rgba(140, 140, 140, 0.2);
 }
@@ -94,7 +96,8 @@ li {
 }
 
 .navLinks li,
-.activityLinks li:hover {
+.activityLinks li:hover 
+/* remove the hover pseudo-element  */ {
   border-radius: 5px;
   transition: background-color 0.15s, backdrop-filter 0.15s;
 }
@@ -118,6 +121,7 @@ li {
 }
 
 .hero-container {
+  /* test background-image */
   padding: 25px 20px 20px 240px;
   display: flex;
   flex-direction: column;
@@ -127,8 +131,10 @@ li {
 .searchBar {
   border-radius: 25px;
   background-color: rgba(255, 255, 255, 0.3);
+  /* lighten background-color and add box-shadow inset */
   width: 200px;
 }
+
 .searchBar input {
   border: none;
   outline: none;
@@ -136,6 +142,8 @@ li {
   padding: 10px;
   width: 200px;
 }
+
+/* serchBar needs a search icon */
 
 .heroTitle {
   display: flex;
