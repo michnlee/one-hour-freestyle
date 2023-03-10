@@ -82,6 +82,7 @@ li {
   display: flex;
   flex-direction: row;
   width: 80%;
+  /* background-color or border to be added with a spacing between this container and the background-stories container */
 }
 
 .hero-story {
@@ -98,6 +99,7 @@ li {
 }
 
 .hero-image {
+  /* to be made into a link */
   height: 300px;
   width: 500px;
   background-color: #e9db34;
@@ -129,6 +131,7 @@ li {
 }
 
 .business-story-image {
+  /* to be made into a link */
   background-color: #fdbfd6;
   height: 200px;
   width: 355px;
@@ -144,3 +147,9 @@ li {
 .story-description p {
   margin-bottom: 10px;
 }
+
+/* story titles to be made into a link */
+
+/* read more buttons to size smaller and styled */
+
+/* stories to be changed to a grid layout */
