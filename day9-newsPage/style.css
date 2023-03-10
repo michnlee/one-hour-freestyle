@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Shrikhand&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+body {
+  background-color: #fff1e8;
+}
+
+h1 {
+  font-family: "Shrikhand", cursive;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar {
+  justify-content: space-between;
+  align-items: end;
+}
+
+.logo h1 {
+  padding: 5px;
+  color: #c4df15;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: row;
+}
+
+.navlinks a {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.navlinks a:hover {
+  color: #ffffff;
+
+  background-color: #f65b15;
+}
+
+.hero,
+.business {
+  padding: 50px 20px;
+}
+
+.highlighted-story {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
+.hero-story {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.hero-story {
+  padding: 10px 10px;
+}
+
+.hero-title {
+  margin-bottom: 2rem;
+}
+
+.hero-image {
+  height: 300px;
+  width: 500px;
+  background-color: #e9db34;
+}
+
+.background-stories {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.backgroundStory-image {
+  height: 98px;
+  width: 300px;
+  background-color: #e9db34;
+}
+
+.business-story {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+
+  border: 1px solid #e9db34;
+  box-shadow: 1px 2px 5px #c4df15;
+  margin: 0px 50px;
+}
+
+.business-story-image {
+  background-color: #fdbfd6;
+  height: 200px;
+  width: 355px;
+  margin-bottom: 15px;
+}
+
+.business-story-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.story-description h3,
+.story-description p {
+  margin-bottom: 10px;
+}
