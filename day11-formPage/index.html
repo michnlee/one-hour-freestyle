@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freestyle Challenge Day 11</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar container">
+      <a href="#"><h1 class="logo">LOGO</h1></a>
+      <ul class="navlinks">
+        <a href="#"><li>Link One</li></a>
+        <a href="#"><li>Link Two</li></a>
+        <a href="#"><li>Link Three</li></a>
+        <a href="#"
+          ><li><i class="fa-solid fa-user"></i></li
+        ></a>
+      </ul>
+    </nav>
+    <form action="" method="post" class="container">
+      <h3 class="form-heading">Work with us today...</h3>
+      <section class="personal-info flex-column">
+        <label for="fname">First Name:</label>
+        <input
+          type="text"
+          name="fname"
+          id="fname"
+          class="name"
+          placeholder="John"
+          required
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          name="lname"
+          id="lname"
+          class="name"
+          placeholder="Doe"
+          required
+        />
+
+        <label for="birthday">Birthday</label>
+        <input
+          type="date"
+          name="birthday"
+          id="birthday"
+          class="birthday"
+          required
+        />
+
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="gender" />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="gender" />
+        <label for="male">Male</label>
+      </section>
+
+      <section class="address flex-column">
+        <label for="address1">Address 1:</label>
+        <input type="text" name="address1" id="address1" />
+        <label for="address">Address 2:</label>
+        <input type="address2" name="address2" id="address2" />
+        <label for="city">City:</label>
+        <input type="text" name="city" id="city" />
+
+        <label for="state">State:</label>
+        <input type="text" name="state" id="state" />
+
+        <label for="address">Country:</label>
+        <select name="country" id="country" required>
+          <option value="country">Select a Country</option>
+          <option value="country">Canada</option>
+          <option value="country">China</option>
+          <option value="country">England</option>
+          <option value="country">Mexico</option>
+          <option value="country">Trinidad and Tobago</option>
+          <option value="country">United States of America</option>
+        </select>
+
+        <label for="zipcode">Zipcode:</label>
+        <input
+          type="text"
+          pattern="[0-9]"
+          name="zipCode"
+          id="zipCode"
+          required
+        />
+      </section>
+
+      <section class="contact-info flex-column">
+        <label for="telephone">Telephone Number:</label>
+        <input
+          type="tel"
+          name="telephone"
+          id="telephone"
+          pattern="[0-9]"
+          required
+        />
+        <label for="telephone">Mobile Number: </label>
+        <input type="tel" name="mobile" id="mobile" pattern="[0-9]" required />
+        <label for="email">Email Address:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="johndoe@example.com"
+          required
+        />
+      </section>
+
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+
+    <section class="information-container">
+      <h4></h4>
+    </section>
+
+    <footer class="foot"></footer>
+  </body>
+</html>
