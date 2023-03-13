@@ -1,4 +1,4 @@
-# Code review - Day 2 of OneHour Freestyle challenge
+# Code review - Day 9 of OneHour Freestyle challenge
 
 ## Summary
 
