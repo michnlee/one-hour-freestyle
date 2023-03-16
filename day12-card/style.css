@@ -90,6 +90,8 @@ li {
   grid-column: 3 / 5;
 }
 
+/* give some cards some row span */
+
 .image {
   background-color: rgb(181, 187, 193);
 }

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freestyle Challenge Day 13</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="dashboard flex">
+      <nav class="navbar container flex bg-transparent">
+        <div class="menu flex">
+          <div class="logo">
+            <h1>TRAVEL</h1>
+          </div>
+
+          <ul class="navlinks flex">
+            <li><a href="#">Link One</a></li>
+            <li><a href="#">Link Two</a></li>
+            <li><a href="#">Link Three</a></li>
+          </ul>
+        </div>
+        <div class="contacts flex">
+          <ul class="contactLinks flex">
+            <li><a href="#">Call</a></li>
+            <li><a href="#">Email</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <section class="dashboard-main flex bg-transparent">
+        <div class="hero">
+          <h3>Welcome to Paradise</h3>
+        </div>
+
+        <form action="" method="post">
+          <div class="input-section flex-row">
+            <div class="input-group">
+              <label for="fname">First Name:</label>
+            </div>
+            <div class="input-group">
+              <input type="text" name="fname" placeholder="John" />
+            </div>
+          </div>
+          <div class="input-section flex-row">
+            <div class="input-group">
+              <label for="mname">Middle Name:</label>
+            </div>
+            <div class="input-group">
+              <input type="text" name="mname" placeholder="Joseph" />
+            </div>
+          </div>
+          <div class="input-section flex-row">
+            <div class="input-group">
+              <label for="lname">Last Name:</label>
+            </div>
+            <div class="input-group">
+              <input type="text" name="lname" placeholder="Doe" />
+            </div>
+          </div>
+          <div class="input-section flex-row">
+            <div class="input-group">
+              <label for="birthday">Birthday:</label>
+            </div>
+            <div class="input-group">
+              <input type="date" name="birthday" id="birthday" />
+            </div>
+          </div>
+          <div class="input-section flex-row">
+            <div class="input-group">
+              <label for="departue date">Date of Departure:</label>
+            </div>
+            <div class="input-group">
+              <input type="date" name="departure" id="departure" />
+            </div>
+          </div>
+          <div class="input-section flex-row">
+            <div class="input-group">
+              <label for="flight-type">Flight Type:</label>
+            </div>
+            <div class="input-group">
+              <select name="flight-type" id="flight-type">
+                <option value="select">Select your flight type</option>
+                <option value="type">Basic</option>
+                <option value="type">Economy</option>
+                <option value="type">Business</option>
+                <option value="type">First Class</option>
+              </select>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
