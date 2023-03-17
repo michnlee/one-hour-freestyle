@@ -99,6 +99,7 @@ li {
 
 .logo h1 {
   margin-bottom: 10px;
+  /* increase margin bottom */
   padding: 20px;
 }
 
@@ -135,6 +136,7 @@ li {
 .input-section {
   align-items: center;
   margin: 15px 0;
+  /* increase margin top and bottom */
 }
 
 .input-group {
@@ -147,5 +149,6 @@ select {
   background-color: transparent;
   border: 1px solid black;
   border-top: none;
+  /* only have a border-bottom */
   padding: 5px;
 }
